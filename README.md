@@ -15,6 +15,10 @@ A sleek and modern status HUD for **FiveM ESX servers**, designed to display pla
 
 ---
 
+## Take a look
+- https://cdn.discordapp.com/attachments/1469816620242173976/1469816942809321636/FiveM_by_Cfx.re_-_NexusCity_07.02.2026_23_06_41.png?ex=69890933&is=6987b7b3&hm=9bb171127025af3a2150c98311db23ef23e1d109946f44f3df25012e31b24621&
+- https://imgur.com/a/JcJXR4z
+
 ## Installation
 
 1. Place the resource in your server's `resources` folder:
