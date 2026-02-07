@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+#hud-container { 
+    position: absolute;
+    bottom: 20px; /* Postition */
+    left: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.stat-box {
+    width: 45px;
+    height: 45px;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.stat-box i {
+    color: white;
+    font-size: 1.2rem;
+    z-index: 2;
+    text-shadow: 0 0 5px rgba(0,0,0,0.8);
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    transition: height 0.5s ease-out;
+}
+
+#health-wave { 
+    background: linear-gradient(0deg, #8e0000, #e74c3c); /* Red */
+    height: 100%; 
+}
+
+#armor-wave  { 
+    background: linear-gradient(0deg, #6361cc, #c609ec); /* Purple */
+    height: 100%; 
+}
+
+#hunger-wave { 
+    background: linear-gradient(0deg, #d35400, #f39c12); /* Orange */
+    height: 100%; 
+}
+
+#thirst-wave { 
+    background: linear-gradient(0deg, #0891b2, #06b6d4);  /* Blue */
+    height: 100%; 
+}
